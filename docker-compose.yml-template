@@ -16,7 +16,7 @@ services:
     ##################################################
     # RUN section
     ##################################################
-    image: unimock/clamav-docker:1.0.0
+    image: unimock/clamavd-docker:1.0.0
     restart: unless-stopped
     container_name: clamavd
     ports:
